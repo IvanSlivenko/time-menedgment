@@ -1,0 +1,54 @@
+.box-problems{
+padding-top: 60px;
+
+
+}
+
+.box-problems__title{
+    text-align:center;
+    color: gray;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box-problems__list{
+display: flex;
+align-items: center;
+flex-wrap:wrap;
+
+
+}
+
+.box-problems__list--List{
+    display: flex;
+
+}
+
+.box-problems__items{
+display: flex;
+flex-direction: column;  
+
+margin: 5px;
+width: calc((100% - 6*5px)/3);
+
+height: 200px;
+background-color: aquamarine;
+
+border: 1px solid tomato;
+
+}
+.box-problems__items-images{
+    display: block;
+    background-color: brown;
+    width:auto;
+    height:180px;
+
+
+
+   }
+
+   .box-problems__items-text{
+    margin: 0;
+    width: auto;
+    height:40px;
+
+   }

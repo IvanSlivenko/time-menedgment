@@ -1,0 +1,68 @@
+body{
+   background-color: bisque;
+}
+
+.times__problems-title{
+font-size: 40px;
+color: rgb(48, 18, 18);
+text-align: center;
+
+padding-top: 100px;
+
+@media screen and (max-width: 840px) {
+        padding-top: 180px;
+    }
+
+}
+
+.times__problems--box{
+
+// padding-top: 70px;
+
+margin-left: auto;
+margin-right: auto;
+
+
+
+        
+
+
+}
+.times__problems--list{
+    
+    list-style: none;
+
+    display: flex;
+    flex-wrap: wrap;
+
+   
+    
+}
+.times__problems--list-items{
+    
+    width: calc(100 - 6*5)/3;
+    height: auto;
+    margin: 5px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid black;
+
+
+
+}
+.times__problems--img{
+    padding-top: 2px;
+    display: block;
+    
+    height: 200px;
+    height: auto;
+    
+
+}
+
+.times__problems-text{
+    
+   color: gray; 
+   hyphens:manual;
+
+   
+}
