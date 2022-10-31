@@ -428,9 +428,10 @@ body {
   color: rgb(48, 18, 18);
   text-align: center;
 }
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 500px) {
   .times__problems-title {
     font-size: 20px;
+    margin: auto;
   }
 }
 
@@ -488,13 +489,21 @@ body {
 .arena-box {
   position: relative;
   width: 100%;
-  height: 1000px;
+  height: auto;
   margin: 5px;
   padding: 0;
   border: 1px solid brown;
-  background-image: url(/img/fon-godynnyk.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+}
+
+.arena__list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .arena__segment-style {
@@ -513,9 +522,12 @@ body {
           justify-content: center;
   width: 200px;
   height: auto;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .arena__segment-oun-img {
+  display: block;
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -543,7 +555,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   top: 70%;
   right: 7%;
   width: 200px;
@@ -551,6 +566,11 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+@media screen and (min-width: 1200px) {
+  .arena__link-box {
+    position: absolute;
+  }
 }
 
 .arena__link {
@@ -560,14 +580,19 @@ body {
   font-size: 20px;
   text-align: center;
   text-decoration: none;
+  scale: 1;
+  -webkit-transition: 500ms linear;
+  transition: 500ms linear;
 }
 
 .arena__link:hover {
   text-decoration: underline;
+  scale: 2;
 }
 
 .arena__link:focus {
   text-decoration: underline;
+  scale: 2;
 }
 
 .arena__segment-img-link {
@@ -577,55 +602,120 @@ body {
 }
 
 .arena-mastertitle-position {
-  position: absolute;
   top: 35%;
-  left: 40%;
+  left: 35%;
+}
+@media screen and (min-width: 1200px) {
+  .arena-mastertitle-position {
+    position: absolute;
+  }
 }
 
 .arena__segment-oun-position {
-  position: absolute;
   top: 30%;
   left: 7%;
 }
+@media screen and (min-width: 1200px) {
+  .arena__segment-oun-position {
+    position: absolute;
+  }
+}
 
 .arena__segment-two-position {
-  position: absolute;
   top: 8%;
   left: 25%;
+}
+@media screen and (min-width: 1200px) {
+  .arena__segment-two-position {
+    position: absolute;
+  }
 }
 
 .arena__segment-thry-position {
-  position: absolute;
   top: 3%;
   left: 45%;
 }
+@media screen and (min-width: 1200px) {
+  .arena__segment-thry-position {
+    position: absolute;
+  }
+}
 
 .arena__segment-four-position {
-  position: absolute;
   top: 8%;
   left: 65%;
 }
+@media screen and (min-width: 1200px) {
+  .arena__segment-four-position {
+    position: absolute;
+  }
+}
 
 .arena__segment-five-position {
-  position: absolute;
   top: 30%;
   left: 82%;
 }
+@media screen and (min-width: 1200px) {
+  .arena__segment-five-position {
+    position: absolute;
+  }
+}
 
 .arena__segment-six-position {
-  position: absolute;
   top: 55%;
   left: 65%;
 }
+@media screen and (min-width: 1200px) {
+  .arena__segment-six-position {
+    position: absolute;
+  }
+}
 
 .arena__segment-seven-position {
-  position: absolute;
   top: 60%;
   left: 45%;
 }
+@media screen and (min-width: 1200px) {
+  .arena__segment-seven-position {
+    position: absolute;
+  }
+}
 
 .arena__segment-eight-position {
-  position: absolute;
   top: 55%;
   left: 25%;
+}
+@media screen and (min-width: 1200px) {
+  .arena__segment-eight-position {
+    position: absolute;
+  }
+}
+
+.arena-segment-scale {
+  scale: 1;
+  -webkit-transition: 500ms linear;
+  transition: 500ms linear;
+}
+
+.arena-segment-scale:hover {
+  scale: 1.5;
+}
+@media screen and (max-width: 480px) {
+  .arena-segment-scale:hover {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+}
+
+.arena-segment-scale:focus {
+  scale: 1.5;
+}
+
+.fon-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
 }/*# sourceMappingURL=main.css.map */
