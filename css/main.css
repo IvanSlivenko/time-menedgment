@@ -494,12 +494,6 @@ body {
   border: 1px solid brown;
 }
 
-.arena-mastertitle-position {
-  position: absolute;
-  top: 35%;
-  left: 40%;
-}
-
 .arena__segment-style {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -539,34 +533,59 @@ body {
   margin: 0;
   color: gray;
   font-size: 30px;
+  text-align: center;
+}
+
+.arena-mastertitle-position {
+  position: absolute;
+  top: 35%;
+  left: 40%;
 }
 
 .arena__segment-oun-position {
   position: absolute;
-  top: 20%;
+  top: 30%;
   left: 7%;
 }
 
 .arena__segment-two-position {
   position: absolute;
-  top: 3%;
-  left: 30%;
+  top: 8%;
+  left: 25%;
 }
 
 .arena__segment-thry-position {
   position: absolute;
   top: 3%;
-  left: 55%;
+  left: 45%;
 }
 
 .arena__segment-four-position {
   position: absolute;
-  top: 30%;
-  left: 75%;
+  top: 8%;
+  left: 65%;
 }
 
 .arena__segment-five-position {
   position: absolute;
+  top: 30%;
+  left: 82%;
+}
+
+.arena__segment-six-position {
+  position: absolute;
+  top: 55%;
+  left: 65%;
+}
+
+.arena__segment-seven-position {
+  position: absolute;
   top: 60%;
-  left: 55%;
+  left: 45%;
+}
+
+.arena__segment-eight-position {
+  position: absolute;
+  top: 55%;
+  left: 25%;
 }/*# sourceMappingURL=main.css.map */
