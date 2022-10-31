@@ -536,6 +536,11 @@ body {
   text-align: center;
 }
 
+.arena__link {
+  width: auto;
+  height: auto;
+}
+
 .arena-mastertitle-position {
   position: absolute;
   top: 35%;
